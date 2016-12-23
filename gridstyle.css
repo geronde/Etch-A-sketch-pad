@@ -1,0 +1,85 @@
+
+
+/*Sketch A Pad screen*/
+
+#sketchpad {
+height: 608px;
+width:  580px;
+margin: 0 auto;
+border: 85px solid #CF292B;
+border-radius: 45px;
+box-shadow: rgba(0,0,0,0.6) 0 1px 2px;
+
+
+
+
+}
+
+
+/*Style the grid*/
+
+#grid {
+
+	margin: 0 auto;
+	outline-style: groove;
+	outline-color: #A61B20;
+	box-shadow: rgba(0,0,0,0.5) 0 1px 2px;
+	float: right;
+
+	
+}
+
+.rowblock {
+display: inline-block;
+background-color: white;
+outline: 1px solid white;
+outline-width: medium; 
+
+}
+
+.buttonA , .buttonB {
+
+	border-radius: 30px;
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	margin-top: 620px;
+	border-width: thin;
+
+	/**/
+	        background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+			background-image: linear-gradient(top, #f4f1ee, #fff);
+			box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+			
+}
+.buttonA{
+	left:450px;
+}
+.buttonB{
+	right: 450px;
+}
+	
+
+h2 {
+	top: 10px;
+    left: 620px;
+	position: absolute;
+	font-size: 30px;
+	color: #EBAD4A;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 2px;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.5); /* 50% white from bottom */
+
+}
+
+body {
+	background-image: url('desk.png');
+}
+
+
+.blankgrid {
+	background-color: #AAAEAF;
+outline: 1px solid #AAAEAF;
+outline-width: medium; 
+
+}
